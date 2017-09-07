@@ -1,0 +1,78 @@
+/**
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0-alpha.6
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ */
+// Override Boostrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap source files
+@import "bootstrap/bootstrap";
+
+// If you want you can import bootstrap scss files directly from node_modules or bower_components.
+// To do this please remove @import "bootstrap/bootstrap"; and uncomment proper line.
+
+// Import Bootstrap source files from node_modules
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+// Import Bootstrap source files from bower_components
+// @import "bower_components/bootstrap/scss/bootstrap";
+
+// Import vendors styles
+@import "vendors/vendors";
+
+// Override core variables
+@import "core-variables";
+
+// Import core styles
+@import "core/core";
+
+// Custom styles
+@import "custom";
+
+
+.sidebar {
+    background-color: #164916;
+};
+
+.sidebar .nav .nav-title {
+	color: #fbad23;
+};
+
+.sidebar .nav .nav-item .nav-link.active, .sidebar .nav .nav-item .navbar .active.dropdown-toggle, .navbar .sidebar .nav .nav-item .active.dropdown-toggle {
+	background-color: #fbad23;
+};
+
+.header-fixed .app-header {
+	background-color: #1d1d1d;
+};
+
+.app-header.navbar .nav-item .nav-link, .app-header.navbar .nav-item .dropdown-toggle {
+	color: white;
+	font-size: 23px;
+	height: 40px;
+}
+
+card-body pb-0 black {
+	background-color: black;
+}
+
+body {
+	background-color: black
+};
+
+.header-fixed .app-header {
+    background-color: #1d1d1d;
+    height: 100px
+   };
+
+ .companyText {
+ 	color: yellow;
+ };
+
+.centerThis {
+    text-align: center;
+    color: yellow;
+}
